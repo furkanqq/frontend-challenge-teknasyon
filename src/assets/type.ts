@@ -8,6 +8,5 @@ export type IconType = {
   style?: CSSProperties | undefined;
   className?: undefined | string;
   color?: undefined | string;
-  onClick?: (e: any) => void;
   fill?: undefined | string;
 };

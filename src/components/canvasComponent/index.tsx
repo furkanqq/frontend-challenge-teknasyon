@@ -152,7 +152,7 @@ export default function CanvasComponent() {
     }
   };
 
-  const handleMouseUp = (e: React.MouseEvent) => {
+  const handleMouseUp = () => {
     if (!canvasRef.current || !isDrawing || !selectedTool) return;
     const ctx = canvasRef.current.getContext("2d");
     if (!ctx) return;
